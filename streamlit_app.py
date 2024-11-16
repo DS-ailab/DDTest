@@ -94,4 +94,4 @@ if uploaded_file:
             depth_map_file = cv2.imencode('.png', depth_map)[1].tobytes()
             st.download_button("Download Depth Map", depth_map_file, file_name="depth_map.png")
 
-st.info("For any feedback or issues, contact support@example.com")
+st.info("For any feedback or issues, please visit our demo site https://www.aideepimage.com contact email : support@aideepimage.com")
